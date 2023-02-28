@@ -12,9 +12,7 @@ function App() {
     .then((response) => response.json())
     .then((data) => {setListingArray(data)});
 
-  }, []);
-
-  console.log(listingArray);
+  }, [])
 
 
   return (
